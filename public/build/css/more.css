@@ -1,0 +1,109 @@
+.more__gallery-link {
+    margin-right: 37px;
+}
+
+@media screen and (max-width: 990px) {
+    .more__gallery-link {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    header .main-menu .menu-item-998 {
+        display: none;
+    }
+}
+
+.lecturers {
+    display: flex;
+ flex-flow: row wrap;
+ justify-content: center;
+}
+
+.more__contacts {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contacts--box h2 {
+    width:max-content;
+    text-align: center;
+    justify-self: center;
+    max-width: 600px;
+}
+
+.more__contacts div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.packets {
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.packets__heading-wrapper {
+    padding: 12px 20px 20px 60px;
+    background-color: #E53021;
+    color: #fff;
+    position: relative;
+    margin-bottom: 2px;
+}
+
+.packets__heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.packets__heading-text {
+    font-size: 18px;
+}
+
+.packets__heading-wrapper svg {
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    width: 32px;
+    height: 24px;
+}
+
+.packets__heading-wrapper path {
+    fill: #fff;
+}
+
+.packets__item {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+    background-color: #f1f1f1;
+}
+
+.packets__item svg {
+    margin-right: 25px;
+    flex-shrink: 0;
+}
+
+.packets__item:nth-child(even) {
+    background-color: #F7F7F7;
+}
+
+.packets__bottom {
+    padding: 10px;
+    background-color: #E53021;
+    display: flex;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.packets__bottom svg {
+    flex-shrink: 0;
+    margin-right: 20px;
+}
